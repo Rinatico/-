@@ -752,14 +752,13 @@ Edge 0,02%<br>
 Входные данные:
 
 ```
-os: Windows7, Windows8, Windows10, macOs1014, macOs1015
+os: Windows7, Windows8, Windows11,
 browser: Chrome81, Chrome80, Yandex20, Yandex19, Firefox75, Firefox74, Edge80, Edge79, IE11, IE10, Safari13, Safari12
 size: 800600, 1280720, 19201080
 
-if [os] = "macOs1014" OR [os] = "macOs1015"
-then [browser] <> "IE11" AND [browser] <> "IE10";
 
-if [os] = "Windows7" OR [os] = "Windows8" OR [os] = "Windows10"
+
+if [os] = "Windows7" OR [os] = "Windows8" OR [os] = "Windows11"
 then [browser] <> "Safari13" AND [browser] <> "Safari12";
 ```
 
@@ -894,6 +893,10 @@ then [browser] <> "Safari13" AND [browser] <> "Safari12";
 
 **Результат**: PASSED
 
+***
+
+</details>
+
 <details>
 <summary>ID-2:Проверка логика при отмене бронирование</summary>
 
@@ -931,6 +934,10 @@ then [browser] <> "Safari13" AND [browser] <> "Safari12";
 
 **ID баг-репорта**: (https://rinat223.youtrack.cloud/issue/1E-11/Na-testovyj-stende-v-okno-Mashina-zabronirovana-neklikabelnyj-po-centru-kruglaya-knopka-serogo-cveta-s-seredine-stoyat-krestik)
 
+***
+
+</details>
+
 <details>
 <summary>ID-3:Проверка логики бронирования при не заполнении полей Откуда и Куда</summary>
 
@@ -965,13 +972,13 @@ then [browser] <> "Safari13" AND [browser] <> "Safari12";
 **Результат**:**skipped** (не возможно проверить по шагам.)
 
 **ID баг-репорта**: (https://rinat223.youtrack.cloud/issue/1E-20/Na-testovyj-stend-esli-ne-zapolnit-polya-Otkuda-i-Kuda-ne-vozmozhno-dalnejshij-dejstvie.)
+
 ***
+
 
 </details>
 
-<details>
-
-  ## <a name="mobile-testing" />Тестирование мобильных приложений
+## <a name="mobile-testing" />Тестирование мобильных приложений
 
 ### Задание
 
@@ -1103,5 +1110,3 @@ then [browser] <> "Safari13" AND [browser] <> "Safari12";
 ***
 
 </details>
-
-### Решение
