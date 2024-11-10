@@ -965,10 +965,11 @@ then [browser] <> "Safari13" AND [browser] <> "Safari12";
 **Результат**:**skipped** (не возможно проверить по шагам.)
 
 **ID баг-репорта**: (https://rinat223.youtrack.cloud/issue/1E-20/Na-testovyj-stend-esli-ne-zapolnit-polya-Otkuda-i-Kuda-ne-vozmozhno-dalnejshij-dejstvie.)
+***
 
 </details>
 
-<details>
+
 ## <a name="mobile-testing" />Тестирование мобильных приложений
 
 ### Задание
