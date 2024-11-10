@@ -969,8 +969,9 @@ then [browser] <> "Safari13" AND [browser] <> "Safari12";
 
 </details>
 
+<details>
 
-## <a name="mobile-testing" />Тестирование мобильных приложений
+  ## <a name="mobile-testing" />Тестирование мобильных приложений
 
 ### Задание
 
